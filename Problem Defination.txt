@@ -1,0 +1,12 @@
+
+Project Title: Automated Report Generation & KPI Monitoring System
+
+Business Context: Manual preparation of weekly operational reports is time-consuming and prone to errors. This project automates the complete reporting workflow.
+
+Input Data: Daily operational CSV data containing date, department, and sales values.
+
+Processing Logic: Data cleaning, transformation, weekly aggregation, KPI calculations, and threshold checks.
+
+Output: Auto-generated Excel/PDF reports with KPI summaries.
+
+Automation: Scheduled execution with alert notifications when KPIs breach thresholds.
