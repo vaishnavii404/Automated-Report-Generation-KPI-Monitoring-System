@@ -24,3 +24,6 @@ if not alerts.empty:
         f.write("ALERT: Sales below threshold\n")
         f.write(alerts.to_string(index=False))
         f.write("\n\n")
+else:
+    with open(ALERT_FILE, "a") as f:
+        f.write("CHECK PERFORMED: All sales meet thresholds.\n\n")
