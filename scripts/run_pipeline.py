@@ -15,3 +15,7 @@ def run(script_name):
     print(result.stdout)
     if result.stderr:
         print(result.stderr)
+if __name__ == "__main__":
+    run("data_cleaning.py")
+    run("report_generator.py")
+    run("alerts.py")
